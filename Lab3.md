@@ -24,7 +24,8 @@ The reference Amazon FreeRTOS image is pre-programmed to poll these interfaces a
 
 The Greengrass Core will then route these messages to the AWS Cloud.  The Amazon FreeRTOS on MicroZed will use the Greengrass Discovery capability to identify and configure the Greengrass Core endpoint.  We will then subscribe to the sensor MQTT topics from the AWS IoT Console to verify the data flow to the cloud.
 
-1. If you are not on the page we navigated to in the last section, go to the AWS IoT Console page and click on **Test** on the left-hand side menu.
+1. If you are not on the page we navigated to in the [Lab 2](https://github.com/pedrombmachado/aws-cloud-and-xilinx-workshop/blob/patch-1/Lab2.md
+), go to the AWS IoT Console page and click on **Test** on the left-hand side menu.
 2. Click on **Subscribe to a topic** under the **Subscriptions** header.
 3. In the **Subscription topic** input box, enter ```compressor/+/cooling_system/+```. 
 4. Click the **Subscribe to topic** button.
