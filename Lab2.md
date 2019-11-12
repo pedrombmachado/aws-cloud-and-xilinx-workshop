@@ -117,7 +117,7 @@ so that your Ultra96 can be used as a greengrass core.
    Afer a few seconds, you should be able to see the group has been deployed 
    successfully.
 
-8. Go to the AWS IoT Console page and click on **Test** on the left-hand side menu. 
+8. Go to the AWS IoT Console page (`aws->IoT core`) and click on **Test** on the left-hand side menu. 
 9. Click on **Subscribe to a topic** under the **Subscriptions** header. **NOTE** Please make sure that `Oregon` is selected in the AWS website (second drop-down list in the top upper AWS menu)
 10. In the **Subscription topic** input box, enter ```hello/world```. 
 11. Click the **Subscribe to topic** button.
