@@ -45,6 +45,7 @@ Now lets get started with the existing AWS Greengrass group.
       ```bash
    ls
    ```
+  **NOTE** Please run `rm *`if files are found in this folder
    This folder will be serve as a local synchronization point with the cloud in Lab 5.
 
 3. Now let's redeploy the AWS Greengass group.
